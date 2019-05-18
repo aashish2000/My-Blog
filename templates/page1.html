@@ -1,0 +1,23 @@
+{% extends "site.html" %}
+
+{% block content %}
+
+<div class="card-columns m-5">
+    <div class="card">
+        <img class="card-img-top" src="{{url_for('static',filename='dw.jpeg')}}" alt="">
+        <div class="card-body">
+            <h4 class="card-title">Post 1</h4>
+            <p class="card-text">Desc Post 1</p>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="{{url_for('static',filename='dw.jpeg')}}" alt="">
+        <div class="card-body">
+            <h4 class="card-title">Post 2</h4>
+            <p class="card-text">Desc Post 2</p>
+        </div>
+    </div>
+</div>
+<h1>This is my homepage</h1>
+
+{% endblock %}
